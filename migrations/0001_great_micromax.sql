@@ -1,0 +1,1 @@
+ALTER TABLE `users` MODIFY COLUMN `provider` enum('local','google','github','facebook') NOT NULL DEFAULT 'local';
